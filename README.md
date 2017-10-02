@@ -44,6 +44,7 @@ chmod +x automate-eGPU.sh && sudo ./automate-eGPU.sh
 ```
 
 ### Options
+Use any of the following options after
 <table>
 <tr>
 <td>-a</td><td>Switch on automatic mode</td>
@@ -70,7 +71,7 @@ chmod +x automate-eGPU.sh && sudo ./automate-eGPU.sh
 
 The manual [-m] mode does only the minimum initialization in order to use the eGPU and the advanced [-a] mode aims to configure everything automatically in the background.
 
-## To determine if your eGPU supports the Metal API:
+### To determine if your eGPU supports the Metal API:
 ```
 curl -o ~/Desktop/metaltest.swift https://raw.githubusercontent.com/goalque/automate-eGPU/master/metaltest.swift
 cd ~/Desktop
