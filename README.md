@@ -10,25 +10,37 @@ Automate-eGPU provides Mac users with an easy way to setup their eGPU on macOS w
 
 ## Usage
 
-### Installing Homebrew and Git
-Before you begin, open Terminal and install [Homebrew](https://brew.sh/) and [Git](https://git-scm.com/) with the following commands:
+### Downloading Automate-eGPU
+
+You can download Automate-eGPU with the following command:
+```bash
+cd ~/Desktop && curl -o automate-eGPU.sh  https://raw.githubusercontent.com/goalque/automate-eGPU/master/automate-eGPU.sh
 ```
+
+Alternatively, you can download and install [Homebrew](https://brew.sh/) and [Git](https://git-scm.com/), then clone the repository with the following commands:
+```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 > Press Return
 brew install git
-```
-
-Using Git, you can clone the repository with the following command:
-```
 git clone https://github.com/goalque/automate-eGPU.git
 ```
 
 For more information on Git commands: https://education.github.com/git-cheat-sheet-education.pdf
 
 ### Running Automate-eGPU
-Run the following command:
-```
-sudo ./automate-eGPU.sh [Options]
+For Mac OS X El Capitan 10.11 or higher, you need to disable [System Integrity Protection](https://support.apple.com/en-us/HT204899) with the following instructions:
+
+1. Click the  menu. 
+2. Select Restart... 
+3. Hold down command-R to boot into the Recovery System. 
+4. Click the Utilities menu and select Terminal. 
+5. Type `csrutil disable` and press return. 
+6. Close the Terminal app. 
+7. Click the  menu and select Restart...
+
+Run the following command to setup your eGPU:
+```bash
+chmod +x automate-eGPU.sh && sudo ./automate-eGPU.sh
 ```
 
 ### Options
@@ -58,7 +70,7 @@ sudo ./automate-eGPU.sh [Options]
 
 The manual [-m] mode does only the minimum initialization in order to use the eGPU and the advanced [-a] mode aims to configure everything automatically in the background.
 
-To determine if your eGPU supports the Metal API:
+## To determine if your eGPU supports the Metal API:
 ```
 curl -o ~/Desktop/metaltest.swift https://raw.githubusercontent.com/goalque/automate-eGPU/master/metaltest.swift
 cd ~/Desktop
