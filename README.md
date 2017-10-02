@@ -44,7 +44,7 @@ chmod +x automate-eGPU.sh && sudo ./automate-eGPU.sh
 ```
 
 ### Options
-Use any of the following options after
+Use any of the following options:
 <table>
 <tr>
 <td>-a</td><td>Switch on automatic mode</td>
