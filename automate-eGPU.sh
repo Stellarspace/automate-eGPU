@@ -1,28 +1,3 @@
-#!/bin/sh
-#
-######################################################################################
-# automate-eGPU.sh 1.0.1 - Copyright (c) 2016, 2017
-# ------------------------------------------------------------------------------------
-# Authors:   Goalque [goalque@gmail.com] & FricoRico [ricardo@q42.nl]
-# Homepage:  https://github.com/goalque/automate-eGPU/
-# License:   https://github.com/goalque/automate-eGPU/blob/master/SCRIPT-LICENSE.txt
-# ===================================================================================
-# USAGE TERMS of automate-eGPU.sh
-# ====================================================================================
-# 1. You may use this script for personal use.
-# 2. You may continue development of this script at it's GitHub homepage.
-# 3. You may not redistribute this script from outside of it's GitHub homepage.
-# 4. You may not use this script, or portions thereof, for any commercial purposes.
-# 5. You may not modify Apple's copyrighted binary files from within this script
-#    as mandated on pg 4, sections "L. Open Source" & "M. No Reverse Engineering"
-#    of Apple's SLA at http://images.apple.com/legal/sla/docs/macOS1012.pdf 
-########################################################################################
-#
-# Usage:
-#          1) chmod +x automate-eGPU.sh
-#          2) sudo ./automate-eGPU.sh
-#          3) sudo ./automate-eGPU.sh -a		
-
 ver="1.0.1"
 SED=$(if [ -x /usr/bin/sed ]; then echo /usr/bin/sed; else which sed; fi)
 logname="$(logname)"
