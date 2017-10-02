@@ -34,7 +34,7 @@ For Mac OS X El Capitan 10.11 or higher, you need to disable [System Integrity P
 2. Select Restart... 
 3. Hold down command-R to boot into the Recovery System. 
 4. Click the Utilities menu and select Terminal. 
-5. Type `csrutil disable` and press return. 
+5. Type `csrutil disable` or `csrutil enable --without kext` and press return. 
 6. Close the Terminal app. 
 7. Click the  menu and select Restart...
 
