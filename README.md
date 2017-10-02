@@ -40,7 +40,7 @@ For Mac OS X El Capitan 10.11 or higher, you need to disable [System Integrity P
 
 Run the following command to setup your eGPU:
 ```bash
-chmod +x automate-eGPU.sh && sudo ./automate-eGPU.sh
+chmod +x automate-eGPU.sh && sudo ./automate-eGPU.sh [Options]
 ```
 
 ### Options
