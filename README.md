@@ -1,6 +1,6 @@
 # Automate-eGPU
 
-Automate-eGPU provides Mac users with an easy way to setup their eGPU on Mac without the hastle. It has been tested with a large range of eGPUs with different configurations on multiple Mac OS X and macOS versions. It is no longer maintained.
+Automate-eGPU provides Mac users with an easy way to setup their eGPU on Mac without the hastle. It has been tested with a large range of eGPUs with different configurations on multiple operating system versions. It is no longer maintained.
 
 ## Features
 
