@@ -1,10 +1,10 @@
-automate-eGPU - Copyright (c) 2017
+Automate-eGPU - Copyright (c) 2017
 ------------------------------------------------------------------------------------
 Authors:   Goalque [goalque@gmail.com] & FricoRico [ricardo@q42.nl]
 Homepage:  https://github.com/goalque/automate-eGPU/
 License:   https://github.com/goalque/automate-eGPU/blob/master/LICENSE.md
 
-USAGE TERMS of automate-eGPU.sh
+USAGE TERMS of Automate-eGPU
 
 You MAY:
 1. Use for personal use
